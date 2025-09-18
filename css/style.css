@@ -1,0 +1,44 @@
+h1.titre {
+    color:red;
+    font-size: 3em;
+    text-align: center;
+}
+
+p::first-letter
+{
+    font-size: 2em;
+    font-style: italic;
+    color:green;
+}
+
+p{
+    text-align: justify;
+}
+
+#paragraphe1::first-letter {
+    color: violet;
+}
+
+h2.titre:hover{
+    color:green;
+}
+
+a{
+    color:red;
+    text-decoration-style:wavy;
+}
+
+a:hover{
+    text-decoration-line:none;
+    background-color: yellow;
+}
+
+div.paragraphe{
+    border: 2px solid #daa520;
+    border-radius:10px;
+    width: 600px;
+    padding: 10px;
+    background-image: url(../assets/ex04_image_fond.jpg);
+    background-size:cover;
+    box-shadow: 5px 5px 10px black;
+}
